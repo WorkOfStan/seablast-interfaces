@@ -10,9 +10,6 @@ on:
     branches:
       - 'phpcbf*'
 
-permissions:
-  contents: write
-
 jobs:
   call-workflow:
-    uses: WorkOfStan/seablast-actions/.github/workflows/phpcbf.yml@WorkOfStan-patch-1
+    uses: WorkOfStan/seablast-actions/.github/workflows/phpcbf.yml@main

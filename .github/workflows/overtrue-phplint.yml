@@ -9,9 +9,7 @@ on:
     branches-ignore:
       # notest branches to ignore testing of partial online commits
       - 'notest/**'
-permissions:
-  contents: read
 
 jobs:
   call-workflow:
-    uses: WorkOfStan/seablast-actions/.github/workflows/overtrue-phplint.yml@WorkOfStan-patch-1
+    uses: WorkOfStan/seablast-actions/.github/workflows/overtrue-phplint.yml@main
