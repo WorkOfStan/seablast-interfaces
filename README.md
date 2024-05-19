@@ -11,7 +11,7 @@ By consolidating all interfaces in one place, `Seablast/Interfaces` ensures cons
 - **Consistent API**: Ensures that all components adhering to the `Seablast` standards follow a consistent API, making it easier for developers to work with the ecosystem.
 
 ## Usage
-To use the interfaces defined in `Seablast\Interfaces` within your project, simply include the repository as a dependency in your `composer.json` file:
+To use the interfaces defined in `Seablast/Interfaces` within your project, simply include the repository as a dependency in your `composer.json` file:
 
 ```json
 {
