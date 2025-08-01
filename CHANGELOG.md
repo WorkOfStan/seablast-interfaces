@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### `Changed` for changes in existing functionality
 
 - all GitHub Actions moved to polish-the-code.yml sequence
+- package limited to the tested PHP versions, i.e. "php": ">=7.2 <8.5"
 
 ### `Deprecated` for soon-to-be removed features
 
