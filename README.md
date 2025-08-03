@@ -1,4 +1,4 @@
-# seablast-interfaces
+# `Seablast\Interfaces`
 
 `Seablast\Interfaces` is a dedicated repository for all interfaces related to the Seablast for PHP ecosystem. This repository serves as the central point of definition for the contracts that the Seablast for PHP core library and its various plugins and extensions implement.
 By consolidating all interfaces in one place, `Seablast\Interfaces` ensures consistency, reusability, and maintainability across different components of the `Seablast` framework.
@@ -18,7 +18,7 @@ To use the interfaces defined in `Seablast\Interfaces` within your project, simp
 ```json
 {
   "require": {
-    "seablast/interfaces": "^0.1"
+    "seablast/interfaces": "^0.1.1"
   }
 }
 ```
