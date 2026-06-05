@@ -14,7 +14,7 @@ interface IdentityManagerInterface
     /**
      * Return the list of groups to which the user belongs. It may be empty.
      *
-     * @return int[]
+     * @return array<int>
      */
     public function getGroups(): array;
 

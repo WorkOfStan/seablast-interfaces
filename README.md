@@ -18,7 +18,7 @@ To use the interfaces defined in `Seablast\Interfaces` within your project, simp
 ```json
 {
   "require": {
-    "seablast/interfaces": "^0.1.1"
+    "seablast/interfaces": "^0.1.2"
   }
 }
 ```
