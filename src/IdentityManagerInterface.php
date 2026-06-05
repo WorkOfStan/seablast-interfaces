@@ -12,23 +12,26 @@ namespace Seablast\Interfaces;
 interface IdentityManagerInterface
 {
     /**
-     * Return the list of groups to which user belong. It may be empty.
+     * Return the list of groups to which the user belongs. It may be empty.
      *
      * @return int[]
      */
     public function getGroups(): array;
+
     /**
-     * Return the id of user's role.
+     * Return the user's role id.
      *
      * @return int
      */
     public function getRoleId(): int;
+
     /**
      * Return the user's id.
      *
      * @return int
      */
     public function getUserId(): int;
+
     /**
      * Determine whether the user is authenticated.
      *

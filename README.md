@@ -27,17 +27,34 @@ Then, run `composer install` or `composer update` to install the dependency and 
 
 ## Example
 
-Here’s an example of how to implement an interface from `Seablast\Interfaces`:
+Here's an example of how to implement an interface from `Seablast\Interfaces`:
 
 ```php
-// src/Bar.php in Seablast\Auth
+// src/IdentityManager.php in a package that consumes seablast/interfaces
 namespace Seablast\Auth;
 
-use Seablast\Interfaces\BarInterface;
+use Seablast\Interfaces\IdentityManagerInterface;
 
-class Bar implements BarInterface {
-    public function doSomething() {
-        // Implementation of the method
+final class IdentityManager implements IdentityManagerInterface
+{
+    public function getGroups(): array
+    {
+        return [1, 2];
+    }
+
+    public function getRoleId(): int
+    {
+        return 1;
+    }
+
+    public function getUserId(): int
+    {
+        return 123;
+    }
+
+    public function isAuthenticated(): bool
+    {
+        return true;
     }
 }
 ```
