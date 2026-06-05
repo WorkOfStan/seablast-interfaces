@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### `Added` for new features
 
+- Added `AGENTS.md` with machine-maintainer guidance for this interface-only library.
+
 ### `Changed` for changes in existing functionality
+
+- Clarified the readme example, polished `IdentityManagerInterface` PHPDoc, and ignored the local Composer cache directory.
 
 ### `Deprecated` for soon-to-be removed features
 

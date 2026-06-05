@@ -2,6 +2,8 @@
 /vendor/
 #disable composer lock file
 /composer.lock
+#disable local Composer cache
+/.composer-cache/
 
 #disable IDE files
 /nbproject/
