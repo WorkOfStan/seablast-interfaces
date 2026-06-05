@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### `Changed` for changes in existing functionality
 
-- Clarified the README example, polished `IdentityManagerInterface` PHPDoc, and ignored the local Composer cache directory.
+- Clarified the readme example, polished `IdentityManagerInterface` PHPDoc, and ignored the local Composer cache directory.
 
 ### `Deprecated` for soon-to-be removed features
 

@@ -7,7 +7,7 @@ This repository is an interface-only PHP library for the Seablast ecosystem. Tre
 ## Change Rules
 
 - Keep changes small and contract-focused. Do not add runtime behavior, dynamic execution, secrets, credentials, or side-effectful code to this package.
-- Never remove existing comments unless the comment is a TODO that the change fully solves, or unless translating the comment to English.
+- Never remove existing comments unless the comment is a todo that the change fully solves, or unless translating the comment to English.
 - Update `CHANGELOG.md` in English for repository changes.
 - Respect dirty worktrees. Existing unrelated edits are user-owned; do not revert or rewrite them.
 - Keep security in mind for every change. Interface packages should not contain executable shortcuts, generated secrets, or environment-specific credentials.
