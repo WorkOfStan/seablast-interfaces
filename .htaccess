@@ -1,9 +1,6 @@
 # For RewriteRule below
 RewriteEngine on
 
-# Prevent directory listing
-Options -Indexes
-
 # If mod_alias is not enabled, the Apache should fail to show anything in order to always hide the files in the section below
 # nothing starting .git, i.e. also .github or .gitignore
 RedirectMatch 404 /\.git

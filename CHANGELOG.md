@@ -9,11 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### `Added` for new features
 
-- Added `AGENTS.md` with machine-maintainer guidance for this interface-only library.
-
 ### `Changed` for changes in existing functionality
-
-- Clarified the readme example, polished `IdentityManagerInterface` PHPDoc, and ignored the local Composer cache directory.
 
 ### `Deprecated` for soon-to-be removed features
 
@@ -22,6 +18,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### `Fixed` for any bugfixes
 
 ### `Security` in case of vulnerabilities
+
+## [0.1.3] - 2026-06-28
+
+chore: Add `AGENTS.md` with machine-maintainer guidance
+
+### Added
+
+- Add `AGENTS.md` with machine-maintainer guidance for this interface-only library.
+
+### Changed
+
+- Clarify the readme example, polished `IdentityManagerInterface` PHPDoc, and ignored the local Composer cache directory.
+
+### Removed
+
+- Remove `Options -Indexes` from .htaccess as preventing the directory listing is the responsibility of the app
 
 ## [0.1.2] - 2024-10-04
 
@@ -42,7 +54,8 @@ chore: package limited to the tested PHP versions
 
 - The minimal interface for an IdentityManager.
 
-[Unreleased]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.2...0.1.3
 [0.1.2]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.1...0.1.2
 [0.1.1]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1...0.1.1
 [0.1]: https://github.com/WorkOfStan/seablast-interfaces/releases/tag/v0.1
