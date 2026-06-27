@@ -4,12 +4,12 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/seablast/interfaces.svg)](https://packagist.org/packages/seablast/interfaces)
 [![Polish the code](https://github.com/WorkOfStan/seablast-interfaces/actions/workflows/polish-the-code.yml/badge.svg)](https://github.com/WorkOfStan/seablast-interfaces/actions/workflows/polish-the-code.yml)
 
-A dedicated repository for all interfaces related to the [Seablast for PHP](https://github.com/WorkOfStan/seablast) ecosystem. This repository serves as the central point of definition for the contracts that the Seablast for PHP core library and its various plugins and extensions implement.
-By consolidating all interfaces in one place, Seablast Interfaces ensures consistency, reusability, and maintainability across different components of the Seablast framework.
+A dedicated repository for shared interfaces related to the [Seablast for PHP](https://github.com/WorkOfStan/seablast) ecosystem. This package currently provides the `IdentityManagerInterface` contract for identity-related integrations.
+By consolidating shared interfaces in one place, Seablast Interfaces ensures consistency, reusability, and maintainability across different components of the Seablast framework.
 
 ## Key Features
 
-- **Centralized Interface Definitions**: Provides a single source of truth for all interfaces used in the Seablast ecosystem, ensuring uniform implementation across different libraries and plugins.
+- **Centralized Interface Definitions**: Provides a single source of truth for shared interfaces used in the Seablast ecosystem, ensuring uniform implementation across different libraries and plugins.
 - **Enhanced Modularity**: Facilitates the development and maintenance of modular components by decoupling interface definitions from their implementations.
 - **Improved Reusability**: Interfaces defined in Seablast Interfaces can be easily reused by various libraries and plugins, promoting code reuse and reducing duplication.
 - **Ease of Integration**: Simplifies the integration process for new libraries and plugins by providing clear and well-documented interfaces that they can implement.
@@ -63,13 +63,17 @@ final class IdentityManager implements IdentityManagerInterface
 }
 ```
 
+For unauthenticated users, implementations are recommended to throw an exception
+from `getRoleId()` and `getUserId()`. `getGroups()` may either return an empty
+array or throw an exception.
+
 ## Contribution
 
 We welcome contributions to Seablast Interfaces. If you have suggestions for new interfaces or improvements to existing ones, please open an issue or submit a pull request on our GitHub repository.
 
 ## License
 
-`Seablast\Interfaces` is open-source software licensed under the [MIT License](LICENSE).
+Seablast Interfaces is open-source software licensed under the [MIT License](LICENSE).
 
 ## Contact
 

@@ -30,6 +30,7 @@ chore: Add `AGENTS.md` with machine-maintainer guidance
 ### Changed
 
 - Clarify the readme example, polished `IdentityManagerInterface` PHPDoc, and ignored the local Composer cache directory.
+- Document unauthenticated identity recommendations and narrow package wording to the current interface contract.
 
 ### Removed
 
