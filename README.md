@@ -1,4 +1,4 @@
-# `Seablast Interfaces`
+# Seablast Interfaces
 
 [![Total Downloads](https://img.shields.io/packagist/dt/seablast/interfaces.svg)](https://packagist.org/packages/seablast/interfaces)
 [![Latest Stable Version](https://img.shields.io/packagist/v/seablast/interfaces.svg)](https://packagist.org/packages/seablast/interfaces)
@@ -22,7 +22,7 @@ To use the interfaces defined in Seablast Interfaces within your project, simply
 ```json
 {
   "require": {
-    "seablast/interfaces": "^0.1.3"
+    "seablast/interfaces": "^0.1.4"
   }
 }
 ```

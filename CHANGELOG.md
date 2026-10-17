@@ -19,6 +19,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### `Security` in case of vulnerabilities
 
+## [0.1.4] - 2026-10-17
+
+chore: add PHP/8.6-8.7 support
+
 ## [0.1.3] - 2026-06-28
 
 chore: Add `AGENTS.md` with machine-maintainer guidance
@@ -38,7 +42,7 @@ chore: Add `AGENTS.md` with machine-maintainer guidance
 
 ## [0.1.2] - 2024-10-04
 
-chore: PHP/8.5 support added
+chore: add PHP/8.5 support
 
 ## [0.1.1] - 2024-08-03
 
@@ -55,7 +59,8 @@ chore: package limited to the tested PHP versions
 
 - The minimal interface for an IdentityManager.
 
-[Unreleased]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.3...HEAD
+[Unreleased]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.4...HEAD
+[0.1.4]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.3...0.1.4
 [0.1.3]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.2...0.1.3
 [0.1.2]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1.1...0.1.2
 [0.1.1]: https://github.com/WorkOfStan/seablast-interfaces/compare/v0.1...0.1.1
