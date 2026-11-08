@@ -2,7 +2,7 @@
 
 ## Repository Role
 
-This repository is an interface-only PHP library for the Seablast ecosystem. Treat `src/` as public contract code: preserve namespaces, method names, return types, PHPDoc return shapes, and Composer PSR-4 autoloading unless a change is intentionally breaking and documented as such.
+This repository is an interface-only PHP library for the [Seablast](https://github.com/WorkOfStan/seablast) ecosystem. Treat `src/` as public contract code: preserve namespaces, method names, return types, PHPDoc return shapes, and Composer PSR-4 autoloading unless a change is intentionally breaking and documented as such.
 
 ## Change Rules
 
